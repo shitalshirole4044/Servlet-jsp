@@ -15,13 +15,13 @@ import javax.servlet.http.HttpServletResponse;
  */
 @WebServlet("/servlet1")
 public class Servlet1 extends HttpServlet {
-	public void doPost(HttpServletRequest req,HttpServletResponse res)throws ServletException,IOException{
+	public void doGet(HttpServletRequest req,HttpServletResponse res)throws ServletException,IOException{
 		res.setContentType("text/html");
 		PrintWriter out=res.getWriter();
-		String name=req.getParameter("name");
+		String name=req.getParameter("user_name");
 		Cookie c=new Cookie("user_name",name);
 		res.addCookie(c);
-		out.println("<h2>Hello shital "+c.getValue()+"</h2>");
+		out.println("<h2>Hello "+name+"</h2>");
 	    out.println("<h2><a href='servlet2'>Visit Servlet2</a></h2>");
 		
 		

@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
  */
 @WebServlet("/servlet2")
 public class Servlet2 extends HttpServlet {
-	public void doPost(HttpServletRequest req,HttpServletResponse res)throws ServletException,IOException{
+	public void doGet(HttpServletRequest req,HttpServletResponse res)throws ServletException,IOException{
 		PrintWriter out=res.getWriter();
 		res.setContentType("text/html");
 		Cookie[] cookies=req.getCookies();
