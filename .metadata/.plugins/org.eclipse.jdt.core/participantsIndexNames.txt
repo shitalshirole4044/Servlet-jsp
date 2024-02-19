@@ -1,0 +1,11 @@
+INDEX VERSION 1.134
+C:\Users\Admin\OneDrive\Desktop\Workspace\A1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1143344243.index
+\test\src\main\java
+C:\Users\Admin\OneDrive\Desktop\Workspace\A1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3303466969.index
+\ServletAttributesDemo\src\main\java
+C:\Users\Admin\OneDrive\Desktop\Workspace\A1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3046535184.index
+\CookiesDemo\src\main\java
+C:\Users\Admin\OneDrive\Desktop\Workspace\A1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2749541015.index
+\CookiesDemo\src\main\java
+C:\Users\Admin\OneDrive\Desktop\Workspace\A1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3117473032.index
+\test\src\main\java
