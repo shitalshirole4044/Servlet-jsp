@@ -13,4 +13,9 @@
 		<tag-class>tag.MyTagHandler</tag-class>
 	</tag>
 
-</taglib>
+	<tag>
+		<name>Printtag</name>
+		<tag-class>tag.PrintTableTag</tag-class>
+		<attribute>
+			<name>number</name>
+			<required>true</required></attribute></tag></taglib>
